@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.react-multiple-carousel__arrow::before {
+    color: #ffffff !important;
+    background: #20AD96;
+    border-radius: 50%;
+    padding: .5rem;
+}
+
+.react-multiple-carousel__arrow:hover {
+    color: #ffffff !important;
+    background: white !important;
+}
